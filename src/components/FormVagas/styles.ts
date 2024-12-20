@@ -7,11 +7,22 @@ export const Form = styled.form`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
+
+  @media (max-width: 768px) {
+    display: block;
+    text-align: center;
+  }
 `
 
 export const Input = styled.input`
   padding: 0 16px;
   outline-color: var(--cor-principal);
+  height: 40px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 24px;
+  }
 `
 
 export const Button = styled.button`

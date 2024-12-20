@@ -37,5 +37,6 @@ export const HeroTitle = styled.h2`
 
   @media (max-width: 768px) {
     font-size: 32px;
+    text-align: center;
   }
 `
